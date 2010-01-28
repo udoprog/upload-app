@@ -27,7 +27,7 @@ Example configuration for nginx follows:
 <pre>
 server {
   listen 80;
-  rewrite /(.*) https://toolchain.eu/$1 last;
+  rewrite /(.*) https://myhost.com/$1 last;
 }
 
 server {
