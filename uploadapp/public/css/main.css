@@ -1,0 +1,141 @@
+table {
+  font-size: 10px;
+  font-family: sans, arial, tahoma, helvetica, arial;
+}
+
+input {
+  font-size: 10px;
+  font-family: sans, arial, tahoma, helvetica, arial;
+}
+
+tr {
+  line-height: 22px;
+}
+
+tr.dir td.button {
+  color: #ffffff;
+}
+
+tr.notice td {
+  font-weight: bold;
+}
+
+tr.file {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+tr.file td.left {
+}
+
+tr.file td.right {
+}
+
+tr.dir {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+tr.dir td.left {
+}
+
+tr.dir td.right {
+}
+
+table tr.file td {
+  border-bottom: 1px solid #999999;
+}
+
+table tr.dir td {
+  border-bottom: 1px solid #999999;
+}
+
+table tr.notice td {
+  padding: 2px 4px;
+  border-bottom: 1px solid #999999;
+}
+
+table tr.top td {
+  border-bottom: 1px solid #999999;
+}
+
+tr.dir td.button {
+  background-color: #aaaaaa;
+}
+
+td.name {
+  padding: 0 2px;
+}
+
+td.mime {
+  padding: 0 8px;
+  background-color: #fefeaa;
+  text-align: left;
+  width: 1%;
+}
+
+td.owner {
+  padding: 0 8px;
+  background-color: #fefeaa;
+  text-align: left;
+  font-weight: bold;
+  width: 1%;
+}
+
+td.mode {
+  padding: 0 8px;
+  background-color: #fefeaa;
+  text-align: center;
+  font-family: monospace;
+  width: 1%;
+}
+
+td.size {
+  padding: 0 8px;
+  background-color: #d7ffc7;
+  text-align: left;
+  width: 1%;
+}
+
+td.action {
+  background-color: #f2beff;
+  text-align: center;
+  width: 1em;
+}
+
+td.button {
+  padding: 0 2px;
+  text-align: center;
+  font-weight: bold;
+  width: 1em;
+}
+
+div.error {
+  margin: 1em;
+  padding: 0.1em 0.5em;
+  border: 1px solid #770000;
+  background-color: #feaaaa;
+  text-align: center;
+  color: #aa0000;
+  font-weight: bold;
+}
+
+.chmod-checkbox {
+  padding: 0;
+  margin: 0;
+}
+
+tr.chmod-title {
+  line-height: 10px;
+}
+
+tr.chmod-opts {
+  line-height: 10px;
+}
+
+td.chmod-desc {
+  padding: 0 2px;
+}
